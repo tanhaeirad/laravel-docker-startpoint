@@ -1,0 +1,1 @@
+docker run -u ${UID}:${UID} --rm -v $(pwd):/app -w /app composer composer create-project --prefer-dist laravel/laravel laravel_app
